@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sp-fx-header-property-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spFxHeaderProperty/SpFxHeaderPropertyWebPart.js",
+          "manifest": "./src/webparts/spFxHeaderProperty/SpFxHeaderPropertyWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpFxHeaderPropertyWebPartStrings": "lib/webparts/spFxHeaderProperty/loc/{locale}.js"
+  }
+}
